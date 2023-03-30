@@ -1,0 +1,23 @@
+{
+  "name": "search-optimization",
+  "version": "1.0.0",
+  "description": "npm package to optimize searching in web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranjalvora15/search-optimization.git"
+  },
+  "author": "Pranjal Vora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranjalvora15/search-optimization/issues"
+  },
+  "homepage": "https://github.com/pranjalvora15/search-optimization#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
