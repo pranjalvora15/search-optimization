@@ -1,6 +1,6 @@
 {
   "name": "search-optimization",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "npm package to optimize searching in web app",
   "main": "index.js",
   "scripts": {
