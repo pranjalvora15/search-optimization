@@ -63,7 +63,7 @@ export function useThrottle(
           }
         }
       } catch (error) {
-        setResult((prevState) => ({ ...prevState, error }));
+        setResult({ data: null, error, timerID: null });
       }
     })();
   }, [query]);

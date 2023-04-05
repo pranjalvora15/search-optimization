@@ -50,7 +50,7 @@ export const useDebounce = (
 
           setResult({ data: response, error: null });
         } catch (error) {
-          setResult((prevState) => ({ ...prevState, error }));
+          setResult({ data: null, error });
         }
       }
     }, delay);
