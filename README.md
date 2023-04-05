@@ -56,7 +56,7 @@ export default function App() {
       }
     });
 
-    /* Manytimes Irrespective of bad response, say 404 or 500,
+    /* Manytimes irrespective of bad response, say 404 or 500,
      api call will still fulfill the promise to avoid that 
      one can check response.ok if it is false one can throw
      their own error
