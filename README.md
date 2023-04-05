@@ -25,7 +25,7 @@ With yarn
 ```
 ## Demo
 
-[codesandbox demo link](https://codesandbox.io/s/search-optimization-o852up?file=/src/App.js)
+- [codesandbox demo link](https://codesandbox.io/s/search-optimization-o852up?file=/src/App.js)
 
 To see useDebounce really working please click [here](https://usedebounce-with-caching-demo.netlify.app/) ( the demo is fully automated ) and open network tab and observe network call happening. In this example the caching is on.
 
