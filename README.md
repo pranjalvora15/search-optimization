@@ -57,10 +57,10 @@ export default function App() {
     });
 
     /* Manytimes irrespective of bad response, say 404 or 500,
-     api call will still fulfill the promise to avoid that 
+     API call will still fulfill the promise, to avoid that 
      one can check response.ok if it is false one can throw
-     their own error
-     If you don't do this explicitly then promise get fullfilled
+     their own custom error
+     If you don't do this explicitly then promise get fulfilled
      and it will pass error to data instead of passing it to
      error  */
 
