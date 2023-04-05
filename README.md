@@ -39,6 +39,8 @@ useDebounce returns one object that has _**data**_ and _**error**_ property. _**
 
 useThrottle returns one object that has _**data**_, _**error**_ and _**timerID**_ property. _**data**_ contains the returned result from fetch call and _**error**_ contains error if API call fails. You can also give custom error in your async function as it is shown in below example. _**timerID**_ is given because let say someone is applying on search box which is displaying the fetched result from API call in dropdown where clicking on anyone of those fetched result will redirected to another page and in this scenario if someone has provided delay of _2000_ or more milliseconds (which is not the ideal case) and in that two seconds result are fetched and displayed and user has clicked on any one of those fetched result and redirected to another page. Now at this point of time unmounting of that component of the current page will happen as user is redirected to another page and one must take care of clearing the things while unmounting of the component. For this particular reason everytime _**timerID**_ is returned so that at time of unmounting you can clear it.
 
+#### Example
+
 ```javascript
 
 import { useState } from "react";
